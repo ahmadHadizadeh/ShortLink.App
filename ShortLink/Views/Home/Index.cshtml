@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var item in Model)
+{
+    <h2>@item.Title</h2>
+    <p>@item.Description</p>
+    <p>
+        <a href="/Product/@item.ShortId/@item.Title.Trim().Replace(" ","-")">
+            جزئیات محصول
+        </a>
+    </p>
+}
