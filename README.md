@@ -1,4 +1,4 @@
-ASP.NET Core
+Short Link InTo ASP.NET Core
 ============
 In this part of me, I coded and prepared how to make a short link inside your website using 
 [.Net Core](https://dot.net) technology for you completely and correctly, so that I wrote the same code for my website and on my website. I'm using it.
